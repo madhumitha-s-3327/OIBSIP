@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mithu's Tech lab</title>
+    <title>Mithu's Tech Lab</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header class="navbar">
+        <div class="logo">Mithu's <span>Tech Lab</span></div>
         <nav>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#features">Features</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">FAQ</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -22,11 +25,31 @@
     <section id="home" class="hero-section">
         <div class="hero-container">
             <span class="hero-badge"><i class="fa-solid fa-sparkles"></i> Admissions Open for 2026</span>
-            <h1 class="hero-headline">Master With Us</h1>
-            <p class="hero-subheadline">Welcome to Mithu's Tech Lab. grow your skills with us! Start your journey today.</p>
+            <h1 class="hero-headline">Master Tech Skills With Us</h1>
+            <p class="hero-subheadline">Welcome to Mithu's Tech Lab. Elevate your coding journey with industry-aligned programs and real-world projects.</p>
             <div class="hero-buttons">
                 <a href="#contact" class="btn btn-primary">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
                 <a href="#features" class="btn btn-secondary">Explore Features</a>
+            </div>
+        </div>
+    </section>
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h2>500+</h2>
+                <p>Students Trained</p>
+            </div>
+            <div class="stat-card">
+                <h2>15+</h2>
+                <p>Real-World Projects</p>
+            </div>
+            <div class="stat-card">
+                <h2>4.9 ★</h2>
+                <p>Course Rating</p>
+            </div>
+            <div class="stat-card">
+                <h2>95%</h2>
+                <p>Placement Rate</p>
             </div>
         </div>
     </section>
@@ -79,10 +102,88 @@
             </div>
         </div>
     </section>
+    <section id="pricing" class="pricing-section">
+        <div class="section-header">
+            <h2>Flexible Plans</h2>
+            <p>Choose the plan that fits your career goals best.</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Starter Plan</h3>
+                <div class="price">Free</div>
+                <ul class="plan-features">
+                    <li><i class="fa-solid fa-check"></i> Basic HTML & CSS Modules</li>
+                    <li><i class="fa-solid fa-check"></i> Community Support</li>
+                    <li><i class="fa-solid fa-check"></i> Self-Paced Learning</li>
+                </ul>
+                <a href="#contact" class="btn btn-secondary">Get Started</a>
+            </div>
+            <div class="pricing-card featured">
+                <span class="popular-tag">Most Popular</span>
+                <h3>Pro Developer</h3>
+                <div class="price">₹1,999<span>/course</span></div>
+                <ul class="plan-features">
+                    <li><i class="fa-solid fa-check"></i> Full Stack Web Dev / AI</li>
+                    <li><i class="fa-solid fa-check"></i> 1-on-1 Mentorship</li>
+                    <li><i class="fa-solid fa-check"></i> Live Real-World Projects</li>
+                    <li><i class="fa-solid fa-check"></i> Certificate of Completion</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Enroll Now</a>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials-section">
+        <div class="section-header">
+            <h2>What Our Students Say</h2>
+            <p>Real feedback from learners who built their tech career with us.</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p>"Mithu's Tech Lab made learning web development so simple and practical! Building real projects gave me high confidence."</p>
+                <div class="user-info">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                    <div>
+                        <h4>Mithu S.</h4>
+                        <span>Frontend Intern</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p>"The mentorship and code reviews were priceless. I successfully completed my internship tasks thanks to this program!"</p>
+                <div class="user-info">
+                    <i class="fa-solid fa-user-gear"></i>
+                    <div>
+                        <h4>Madhu S.</h4>
+                        <span>Software Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq" class="faq-section">
+        <div class="section-header">
+            <h2>Frequently Asked Questions</h2>
+            <p>Got questions? We've got answers.</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3><i class="fa-solid fa-circle-question"></i> Are these courses beginner-friendly?</h3>
+                <p>Yes! Our curriculum starts from absolute basics and takes you to advanced practical levels.</p>
+            </div>
+            <div class="faq-item">
+                <h3><i class="fa-solid fa-circle-question"></i> Will I get a certificate upon completion?</h3>
+                <p>Absolutely. You will receive a verified certificate that you can share on LinkedIn and your resume.</p>
+            </div>
+            <div class="faq-item">
+                <h3><i class="fa-solid fa-circle-question"></i> How do I get assistance during the course?</h3>
+                <p>You can reach out anytime via email or during our dedicated 1-on-1 mentorship sessions.</p>
+            </div>
+        </div>
+    </section>
     <section id="contact" class="contact-section">
         <div class="contact-card">
             <h2>Start Your Tech Journey Today</h2>
-            <p>Fill in your details below or contact us directly.</p>
+            <p>Fill in your details below or contact us directly.</p>          
             <div class="direct-contact-info">
                 <p><i class="fa-solid fa-envelope"></i> <a href="mailto:madhumitha3327@gmail.com">madhumitha3327@gmail.com</a></p>
                 <p><i class="fa-solid fa-phone"></i> <a href="tel:+918754268878">+91 87542 68878</a></p>
@@ -103,7 +204,6 @@
                     </select>
                 </div>
                 <button type="submit" class="btn btn-primary submit-btn">Submit Application Interest</button>
-                <p class="success-msg">Thank you! Your interest has been submitted successfully.</p>
             </form>
             <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
         </div>
@@ -118,5 +218,6 @@
             </div>
         </div>
     </footer>
+    <a href="#home" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
 </body>
 </html>
